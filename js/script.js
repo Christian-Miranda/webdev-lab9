@@ -1,17 +1,13 @@
 function init(){
-  var buttonpress = document.getElementById('entrybutton');
+  var button = document.getElementById('entrybutton');
 
-function showtext() {
-  var text = document.getElementById('entryinput');
-  document.getElementById('textoutput').innerHTML = text.value;
-  alert("Christian Miranda Canchola:" + text.value);
-}
+  function showMeText(){
+    var textbox = document.getElementById('entryinput');
+    document.getElementById('textoutput').innerHTML = textbox.value;
+    alert("Christian Miranda Canchola:" + textbox.value);
+  }
 
-buttonpress.addEventListener('click', showtext);
-}
-
-
-
-
-
+  button.addEventListener('click', showMeText);
+  }
+  
 window.addEventListener('load', init);
