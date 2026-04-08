@@ -1,7 +1,9 @@
 function init(){
-  var buttonpress = document.getElementById('entrybutton')
+  var buttonpress = document.getElementById('entrybutton');
 
-
+function showtext() {
+  // body...
+}
 
 
 
