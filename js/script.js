@@ -7,8 +7,8 @@ function showtext() {
   alert("Christian Miranda Canchola:" + text.value);
 }
 
-showtext.addEventListener('click', showtext);
-
+buttonpress.addEventListener('click', showtext);
+}
 
 
 
