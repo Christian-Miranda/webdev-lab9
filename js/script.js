@@ -3,6 +3,8 @@ function init(){
 
 function showtext() {
   var text = document.getElementById('entryinput');
+  document.getElementById('textoutput').innerHTML = text.value;
+  alert("Christian Miranda Canchola:" + text.value);
 }
 
 
